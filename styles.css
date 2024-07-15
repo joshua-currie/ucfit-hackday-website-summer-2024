@@ -1,0 +1,57 @@
+body
+{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red, orange, yellow, green, blue, indigo, violet);
+    font-family: 'Comic Sans MS', 'Comic Sans', 'Arial Rounded MT Bold', 'Trebuchet MS', sans-serif;
+    margin-bottom: 100px;
+}
+
+h1
+{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+#text-box-type-1-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-box-border-2
+{
+    border: 2px outset;
+    border-width: 6px;
+    width: 70%;
+    margin-bottom: 10px;
+    border-color: rgb(128,128,128);
+}
+
+.text-box-border-3
+{
+    border: solid;
+    border-width: 3px;
+    border-color: rgb(255,255,255);
+}
+
+.text-box-type-1
+{
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(92, 92, 92);
+    background-color: rgb(210, 255, 201);
+    padding: 0px 40px 0px 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif
+}
+
+.text-box-type-1 h2
+{
+    font-size: 40px;
+}
+
+.text-box-type-1 p
+{
+    font-size: 24px;
+}
